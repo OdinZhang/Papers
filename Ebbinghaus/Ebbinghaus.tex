@@ -1,0 +1,41 @@
+\documentclass{article}
+
+\usepackage{ctex}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage[a4paper,right=2cm,left=2cm,top=2cm,bottom=2cm,landscape]{geometry}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{array}
+
+\pagestyle{empty}
+\renewcommand\arraystretch{1.7}
+\let\kaishu\relax
+\newCJKfontfamily\kaishu{KaiTi}[AutoFakeBold]
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+\begin{document}
+\par\noindent\center{\zihao{1}\ziju{1}\bfseries\kaishu{艾宾浩斯遗忘曲线}}
+
+\vfill
+
+\par\noindent
+\begin{tabularx}{\linewidth}{|c|>{\centering\arraybackslash}p{5em}|>{\centering\arraybackslash}p{9em}|*{11}{Y|}}
+	\hline
+	\multirow{2}{*}{序号} & \multirow{2}{*}{日期} & \multirow{2}{*}{学习内容} & \multicolumn{3}{c|}{短期记忆复习周期} & \multicolumn{8}{c|}{长期记忆复习周期}                                                                 \\ \cline{4-14}
+	                      &                       &                           & 5分钟                                 & 30分钟                                & 12小时 & 1天 & 2天 & 4天 & 7天 & 15天 & 1个月 & 3个月 & 6个月 \\ \hline
+	                      &                       &                           &                                       &                                       &        &     &     &     &     &      &       &       &       \\ \hline
+	                      &                       &                           &                                       &                                       &        &     &     &     &     &      &       &       &       \\ \hline
+	                      &                       &                           &                                       &                                       &        &     &     &     &     &      &       &       &       \\ \hline
+	                      &                       &                           &                                       &                                       &        &     &     &     &     &      &       &       &       \\ \hline
+	                      &                       &                           &                                       &                                       &        &     &     &     &     &      &       &       &       \\ \hline
+	                      &                       &                           &                                       &                                       &        &     &     &     &     &      &       &       &       \\ \hline
+	                      &                       &                           &                                       &                                       &        &     &     &     &     &      &       &       &       \\ \hline
+	                      &                       &                           &                                       &                                       &        &     &     &     &     &      &       &       &       \\ \hline
+	                      &                       &                           &                                       &                                       &        &     &     &     &     &      &       &       &       \\ \hline
+	                      &                       &                           &                                       &                                       &        &     &     &     &     &      &       &       &       \\ \hline
+	                      &                       &                           &                                       &                                       &        &     &     &     &     &      &       &       &       \\ \hline
+	                      &                       &                           &                                       &                                       &        &     &     &     &     &      &       &       &       \\ \hline
+	                      &                       &                           &                                       &                                       &        &     &     &     &     &      &       &       &       \\ \hline
+\end{tabularx}
+\end{document}
