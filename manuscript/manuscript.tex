@@ -1,0 +1,28 @@
+\documentclass{article}
+
+\usepackage{ctex}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage[a4paper,right=2cm,left=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{color}
+
+\pagestyle{empty}
+
+\let\kaishu\relax
+\newCJKfontfamily\kaishu{KaiTi}[AutoFakeBold]
+
+% \ctexset{autoindent=false}
+% \setlength\parindent{0pt}
+
+\begin{document}
+\par\noindent\center{\zihao{1}\ziju{1}\bfseries\kaishu\textcolor[rgb]{1,0.4,0.4}{草稿纸}}
+
+\vfill
+
+\par\noindent\begin{tikzpicture}
+	\foreach \i in {0, 1,..., 30}
+		{
+			\draw[color=red!40] (0, \textheight * 0.03  * \i) -- (\textwidth, \textheight * 0.03 * \i);
+		}
+\end{tikzpicture}
+\end{document}
