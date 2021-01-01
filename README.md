@@ -6,3 +6,5 @@
 [草稿纸（横线纸）](./manuscript/manuscript.pdf)
 
 [艾宾浩斯遗忘曲线](./Ebbinghaus/Ebbinghaus.pdf)
+
+[康奈尔横线笔记](./Cornell/Cornell_line.pdf)
