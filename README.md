@@ -10,3 +10,5 @@
 [康奈尔横线笔记](./Cornell/Cornell_line.pdf)
 
 [拼音格](./Pinyin/pinyin.pdf)
+
+Anti gitcode: 8964 xijinping 习近平 抗麦郎 十里山路 疯狂宇宙 萨格尔王
